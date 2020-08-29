@@ -1,10 +1,13 @@
+# Name of workflow
 name: CI
 
+# The on command is used to specify an event that will trigger the workflow
 on: 
   push:
     branches:    
       - master
 
+# Specify the job I want to run (build in this case)
 jobs:
   build:
 
